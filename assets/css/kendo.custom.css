@@ -1,0 +1,253 @@
+/**
+ * Kendo UI Özelleştirmeleri
+ */
+
+/* Genel Kendo UI Stiller */
+.k-widget {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Grid Özelleştirmeleri */
+.k-grid {
+    border-color: #e7ecf1;
+    font-size: 13px;
+}
+
+.k-grid-header {
+    background-color: #37405f;
+    background-color: rgba(55, 64, 95, 0.84);
+    padding: 7px;
+}
+
+.k-grid-header th.k-header>.k-link {
+    text-overflow: clip;
+}
+
+.k-grid-header th.k-header {
+    padding: 8px;
+    font-weight: 600;
+    color: #3f4047;
+    border-color: #e7ecf1;
+}
+
+.k-grid td {
+    padding: 8px;
+    border-color: #e7ecf1;
+}
+
+.k-grid tr:hover {
+    background-color: #f9f9f9;
+}
+
+.k-grid-alt {
+    background-color: #f9f9f9;
+}
+
+.k-grid-toolbar {
+    background-color: #f5f5f5;
+    border-color: #e7ecf1;
+    padding: 8px;
+}
+
+.k-pager-wrap {
+    background-color: #f5f5f5;
+    border-color: #e7ecf1;
+    padding: 8px;
+}
+
+/* Button Özelleştirmeleri */
+.k-button {
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.k-button:hover {
+    opacity: 0.9;
+}
+
+.k-button.k-primary {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.k-button.k-primary:hover {
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+/* Autocomplete Özelleştirmeleri */
+.k-autocomplete {
+    width: 100%;
+}
+
+.k-autocomplete.k-state-default {
+    border-color: #c2cad8;
+}
+
+.k-autocomplete.k-state-focused {
+    border-color: #83c4d6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(131, 196, 214, 0.6);
+}
+
+/* Dropdown Özelleştirmeleri */
+.k-dropdown {
+    width: 100%;
+}
+
+.k-dropdown .k-dropdown-wrap {
+    border-color: #c2cad8;
+}
+
+.k-dropdown .k-dropdown-wrap.k-state-focused {
+    border-color: #83c4d6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(131, 196, 214, 0.6);
+}
+
+/* Date Picker Özelleştirmeleri */
+.k-datepicker {
+    width: 100%;
+}
+
+.k-datepicker .k-picker-wrap {
+    border-color: #c2cad8;
+}
+
+.k-datepicker .k-picker-wrap.k-state-focused {
+    border-color: #83c4d6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(131, 196, 214, 0.6);
+}
+
+/* Window Özelleştirmeleri */
+.k-window {
+    border-color: #e7ecf1;
+    border-radius: 4px;
+}
+
+.k-window-titlebar {
+    background-color: #f5f5f5;
+    border-color: #e7ecf1;
+    color: #3f4047;
+    padding: 12px;
+}
+
+/* Tooltip Özelleştirmeleri */
+.k-tooltip {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+/* Chart Özelleştirmeleri */
+.k-chart {
+    font-size: 13px;
+    height: 300px;
+}
+
+/* TabStrip Özelleştirmeleri */
+.k-tabstrip {
+    background-color: transparent;
+    border-color: #e7ecf1;
+}
+
+.k-tabstrip .k-tabstrip-items {
+    background-color: transparent;
+}
+
+.k-tabstrip .k-item {
+    border-color: #e7ecf1;
+    background-color: #f5f5f5;
+    color: #3f4047;
+}
+
+.k-tabstrip .k-state-active {
+    border-bottom-color: #fff;
+    background-color: #fff;
+}
+
+/* Validator Özelleştirmeleri */
+.k-tooltip-validation {
+    background-color: #f2dede;
+    color: #a94442;
+    border-color: #ebccd1;
+}
+
+/* Mobil Özelleştirmeler */
+@media (max-width: 767px) {
+    .k-grid-toolbar {
+        text-align: center;
+    }
+    
+    .k-grid-toolbar .k-button {
+        margin-bottom: 5px;
+    }
+    
+    .k-pager-wrap {
+        text-align: center;
+    }
+    
+    .k-pager-wrap .k-pager-nav {
+        margin-bottom: 5px;
+    }
+    
+    .k-pager-wrap .k-pager-info {
+        display: block;
+        margin-top: 5px;
+    }
+}
+
+/* Tema Renk Özelleştirmeleri */
+.k-state-selected {
+    background-color: #83c4d6;
+    border-color: #6eb6ca;
+}
+
+.k-state-focused {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(131, 196, 214, 0.6);
+}
+
+/* Özel Grid Stili */
+.custom-grid .k-grid-header {
+    background-color: #83c4d6;
+}
+
+.custom-grid .k-grid-header th.k-header {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Özel Chart Stili */
+.custom-chart {
+    height: 400px;
+}
+
+.custom-chart .k-chart-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Özel Tooltip Stili */
+.custom-tooltip {
+    max-width: 300px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+/* Dikey Merkezleme */
+.vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form Elemanları için Genişlik Ayarları */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* İçerik Kenar Boşlukları */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}

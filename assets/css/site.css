@@ -1,0 +1,184 @@
+﻿/*#region Material Theme Changes */
+/*.k-block, .k-header, .k-grid-header, 
+.k-toolbar, .k-grouping-header, .k-pager-wrap, .k-button, .k-draghandle, .k-treemap-tile, html .km-pane-wrapper .k-header {
+    background-color: #D1E9F4
+}*/
+
+.k-grid-header th.k-header>.k-link {
+    text-overflow: clip;
+}
+
+.k-header.k-grid-toolbar.k-grid-top {
+    background-color: #37405f;
+    background-color: rgba(55, 64, 95, 0.84);
+    padding: 7px;
+}
+
+/*#endregion */
+
+.thumbnailImage {
+    width: 100px;
+    height: 50px;
+}
+
+/*#region Center-Style */
+.vertical-center {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+/*#endregion */
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*FORM TEMPLATE İÇİN KOYULAN ANA DİV STİLİNİ TANIMLAR.*/
+.fabricAndColorMainDivStyles {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.field-validation-error {
+    white-space: pre-wrap;
+}
+
+/*#region ONAY ALMA MESAJI TEMPLATE KISMINI BARINDIRIR. */
+
+.czDLGIcon {
+    padding-right: 10px;
+    width: 32px;
+    height: 32px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+}
+
+.czDLGText {
+    padding-right: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.kr-Organized {
+    float: right;
+}
+
+.messageBoxTemplateStyledButtons button {
+    margin: 5px;
+    width: 100px;
+}
+
+.czWarning {
+    background-image: url(../Images/Warning_Sign.png);
+}
+
+.czInformation {
+    background-image: url(../Images/Information.png);
+}
+
+.czConfirm {
+    background-image: url(../Images/confirm.png);
+}
+
+.czError {
+    background-image: url(../Images/error.png);
+}
+
+.czStop {
+    background-image: url(../Images/stop.png);
+}
+
+/*#endregion */
+
+/*#region Wait Indicator */
+
+#containerForWaitIndicator {
+    position: absolute;
+    z-index: 99999;
+}
+
+div.k-loading-mask {
+    z-index: 100;
+    position: fixed;
+}
+
+
+a.languageButtonStyleTr span {
+    vertical-align: text-top;
+    margin-right: .3rem;
+    margin-left: -0.3rem;
+    border-color: transparent;
+    -ms-opacity: .8;
+    opacity: 1;
+    -ms-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    background-image: url(../Assets/img/flags/tr.png);
+}
+
+a.languageButtonStyleEng span {
+    vertical-align: text-top;
+    margin-right: .3rem;
+    margin-left: -0.3rem;
+    border-color: transparent;
+    -ms-opacity: .8;
+    opacity: 1;
+    -ms-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    background-image: url(../Assets/img/flags/england.png);
+}
+
+/*#endregion */
